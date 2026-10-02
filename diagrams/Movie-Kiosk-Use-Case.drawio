@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="3JQlig_6zO54OtPcTx-j">
+    <mxGraphModel dx="690" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W10rEyFb1Oa0RTrHAbfU-1" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="500" width="200" x="260" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="W10rEyFb1Oa0RTrHAbfU-4" parent="W10rEyFb1Oa0RTrHAbfU-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="View Showtimes" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W10rEyFb1Oa0RTrHAbfU-6" parent="W10rEyFb1Oa0RTrHAbfU-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Purchase Ticket" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="W10rEyFb1Oa0RTrHAbfU-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Use Case Diagram&lt;div&gt;Movie Theatre Ticket Kiosk&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="225" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="W10rEyFb1Oa0RTrHAbfU-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Customer" vertex="1">
+          <mxGeometry height="60" width="30" x="90" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="W10rEyFb1Oa0RTrHAbfU-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Select Seat" vertex="1">
+          <mxGeometry height="80" width="120" x="300" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="W10rEyFb1Oa0RTrHAbfU-7" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="W10rEyFb1Oa0RTrHAbfU-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="440" as="sourcePoint" />
+            <mxPoint x="380" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W10rEyFb1Oa0RTrHAbfU-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="W10rEyFb1Oa0RTrHAbfU-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="440" as="sourcePoint" />
+            <mxPoint x="340" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W10rEyFb1Oa0RTrHAbfU-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="W10rEyFb1Oa0RTrHAbfU-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="440" as="sourcePoint" />
+            <mxPoint x="340" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
